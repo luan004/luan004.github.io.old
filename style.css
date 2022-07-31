@@ -1,0 +1,183 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.card {
+  box-shadow: 0 0px 30px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  border-radius: 30px;
+  background: #f0faff;
+  color: black;
+  margin: auto;
+}
+
+.card:hover {
+  box-shadow: 0 0px 30px 0 rgba(0, 0, 0, 0.5);
+}
+
+.avatar {
+  border-radius: 30px;
+  transition: 0.3s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  transition: 0.3s;
+  height: 130px;
+  padding: 50px;
+  background: #071e22;
+  color: white;
+  font-size: 20px;
+}
+
+.column {
+  float: left;
+}
+
+@font-face {
+  font-family: Nunito;
+  src: url(https://cdn.glitch.global/1f4fea87-e1c6-48d8-a365-e8bfaf61dc6c/JosefinSans-Regular.ttf?v=1659220635299);
+}
+
+.caixa-texto {
+  width: 100%;
+  float: left;
+  font-family: Nunito;
+  color: #071e22;
+}
+
+/* +1400 */
+@media screen and (min-width: 1400px) {
+  .card {
+    width: 900px;
+    height: 360px;
+  }
+  .titulo {
+    font-size: 45px;
+  }
+  .subtitulo {
+    padding-bottom: 25px;
+    font-size: 20px;
+  }
+  .caixa-texto {
+    font-size: 20px;
+  }
+  .icon {
+    width: 15px;
+  }
+  .avatar {
+    float: right;
+    width: 360px;
+    height: 360px;
+  }
+  .column {
+    padding-left: 40px;
+    padding-top: 90px;
+    width: 40%;
+  }
+  .header {
+    height: 130px;
+  }
+}
+
+/* 900 - 1400 */
+@media screen and (min-width: 900px) and (max-width: 1399px) {
+  .card {
+    width: 800px;
+    height: 300px;
+  }
+  .titulo {
+    font-size: 40px;
+  }
+  .subtitulo {
+    padding-bottom: 30px;
+    fontsize: 20px;
+  }
+  .caixa-texto {
+    font-size: 20px;
+  }
+  .icon {
+    width: 15px;
+  }
+  .avatar {
+    float: right;
+    width: 300px;
+    height: 300px;
+  }
+  .column {
+    padding-left: 40px;
+    padding-top: 60px;
+    width: 40%;
+  }
+  .header {
+    height: 100px;
+  }
+}
+
+/* 700 - 900 */
+@media screen and (min-width: 700px) and (max-width: 899px) {
+  .card {
+    width: 95%;
+    height: 250px;
+  }
+  .titulo {
+    font-size: 30px;
+  }
+  .subtitulo {
+    padding-bottom: 25px;
+    fontsize: 20px;
+  }
+  .caixa-texto {
+    font-size: 15px;
+  }
+  .icon {
+    width: 10px;
+  }
+  .avatar {
+    float: right;
+    width: 250px;
+    height: 250px;
+  }
+  .column {
+    padding-left: 40px;
+    padding-top: 60px;
+    width: 40%;
+  }
+  .header {
+    height: 75px;
+  }
+}
+
+/* 0 - 700 */
+@media screen and (max-width: 699px) {
+  .card {
+    width: 300px;
+    height: 500px;
+  }
+  .titulo {
+    font-size: 30px;
+  }
+  .subtitulo {
+    padding-bottom: 25px;
+    fontsize: 20px;
+  }
+  .caixa-texto {
+    font-size: 15px;
+  }
+  .icon {
+    width: 10px;
+  }
+  .avatar {
+    float: right;
+    width: 300px;
+  }
+  .column {
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 80%;
+  }
+  .header {
+    height: 100px;
+  }
+}
