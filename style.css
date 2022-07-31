@@ -37,7 +37,7 @@ body {
 
 @font-face {
   font-family: Nunito;
-  src: url(https://cdn.glitch.global/1f4fea87-e1c6-48d8-a365-e8bfaf61dc6c/JosefinSans-Regular.ttf?v=1659220635299);
+  src: url(fonts/Roboto-Regular.ttf);
 }
 
 .caixa-texto {
