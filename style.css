@@ -36,15 +36,29 @@ body {
 }
 
 @font-face {
-  font-family: Roboto;
-  src: url(fonts/Roboto-Regular.ttf);
+  font-family: Nunito;
+  src: url(fonts/Nunito-Light.ttf);
+}
+
+.titulo {
+  width: 100%;
+  float: left;
+  color: #071e22;
+  font-family: Nunito;
+}
+
+.subtitulo {
+  width: 100%;
+  float: left;
+  color: #071e22;
+  font-family: Nunito;
 }
 
 .caixa-texto {
   width: 100%;
   float: left;
-  font-family: Roboto;
   color: #071e22;
+  font-family: Nunito;
 }
 
 /* +1400 */
