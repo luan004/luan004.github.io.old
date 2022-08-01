@@ -37,7 +37,7 @@ body {
 
 @font-face {
   font-family: Nunito;
-  src: url(fonts/Nunito-Light.ttf);
+  src: url('fonts/Nunito-Light.ttf');
 }
 
 .titulo {
