@@ -4,7 +4,8 @@ body {
 }
 
 .barra-de-progresso {
-  margin-top:30px;
+  margin-top:8px;
+  margin-bottom: 20px;
   border-radius: 100px;
   height: 10px;
   background-color: #c7d1d0;
@@ -82,7 +83,7 @@ body {
 
 .subtitulo {
   width: 100%;
-  float: left;
+
   color: #071e22;
   font-family: Nunito;
 }
