@@ -1,6 +1,18 @@
+
 body {
   font-family: Arial;
   margin: 0;
+}
+
+.rodape {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width:100%;
+  left: 0;
+  bottom: 0;
+  background-color: #02090a;
+  color: #FFFFFF;
+  text-align: center;
 }
 
 
